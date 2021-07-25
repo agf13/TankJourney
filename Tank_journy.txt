@@ -1,0 +1,79 @@
+Descriere:
+	Un joc un un tank care se plimba printr-un labirint.
+	* - Asta e tot ceea ce trebuie scris la descriere. Detaliile de genul: colecteaza puncte, deschide cufere ... 
+		am incredere ca o sa le poti gandi ;)
+
+Idei legate de implementare:
+	Cand desenezi tank-ul sa te folosesti de O-ul din centru.
+
+Design:
+	Tank:
+		V1.1:
+	        	O-|-O        O-.-O
+			|/|\|	     |\|/|
+			.-1-.  	     .-2-.
+			|/|\|        |\|/|
+			O-.-O	     O-|-O
+		
+			O-.-O	     O-.-O
+			|\|\|	     |/|/|
+			.-O---	    ---O-.
+			|/|/|	     |\|\|
+			O-.-O	     O-.-O
+	
+		V1.2:
+		        O-|-O        O---O
+			|/ \|	     |/ \|
+			|-O-|  	     |-O-|
+			|\ /|        |\ /|
+			O---O	     O-|-O
+		
+			O---O	     O---O
+			|/|\|	     |/|\|
+			| O -	     - O |
+			|\|/|	     |\|/|
+			O---O	     O---O
+
+
+	Gate:
+		V1:
+			=======
+			|@ | @|
+			|~|X|~|
+			|@ | @|
+			=======
+	
+
+	Chest:
+		V1:
+			=====
+			| ? |
+			=====
+
+
+	Stage idea:
+	
+	-----------------------
+	|                     |
+	|              =====  |
+	|O-|-O         | ? |  |
+	||/ \|         =====  |
+	|.-O-.                |
+	||\ /|-----------------
+	|O---O|
+	|     |
+	|     |
+	|     ---------------------------
+	|       O-.-O		======= |
+	|       |/ \|		|@ | @| |
+	|       |-O--		|~|X|~| |
+	|       |\ /|		|@ | @| |
+	|       O-.-O		======= |
+	---------------------------------
+	
+	
+
+
+
+
+
